@@ -1,5 +1,1040 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://226218.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://226218.io/" rel="alternate" type="text/html" /><updated>2023-08-14T05:43:39-04:00</updated><id>https://226218.io/feed.xml</id><title type="html">thi0x portfolio</title><subtitle>Posts about HTB Solution, cyber security and networking</subtitle><author><name>thi0x</name><email>amir.mehrez.garcia@gmail.com</email></author><entry><title type="html">Appointment - Hack The Box</title><link href="https://226218.io/htb-appointment/" rel="alternate" type="text/html" title="Appointment - Hack The Box" /><published>2023-08-13T00:00:00-04:00</published><updated>2023-08-13T00:00:00-04:00</updated><id>https://226218.io/htb-appointment</id><content type="html" xml:base="https://226218.io/htb-appointment/">&lt;p&gt;&lt;img src=&quot;/assets/images/htb-appointment/appointment_logo.png&quot; alt=&quot;&quot; /&gt;
-Appointment is a machine of Starting Point of HTB. The machine has a PHP web app and the objetive is find a command injection vulnerability in the site to claim the flag.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://226218.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://226218.github.io/" rel="alternate" type="text/html" /><updated>2023-11-14T05:00:42-05:00</updated><id>https://226218.github.io/feed.xml</id><title type="html">thi0x portfolio</title><subtitle>Posts about HTB Solution, cyber security and networking</subtitle><author><name>thi0x</name><email>amir.mehrez.garcia@gmail.com</email></author><entry><title type="html">Keeper - Hack The Box</title><link href="https://226218.github.io/htb-keeper/" rel="alternate" type="text/html" title="Keeper - Hack The Box" /><published>2023-10-05T00:00:00-04:00</published><updated>2023-10-05T00:00:00-04:00</updated><id>https://226218.github.io/htb-keeper</id><content type="html" xml:base="https://226218.github.io/htb-keeper/">&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/keeper_logo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Keeper is a machine of HTB. The machine has a Website with nginx WAF, for this reason has access limited, later u can join to the system with default credentials, later get the password of an user lisa for the connection ssh, later download the .dmp file and recovery old session, next using the old session with private-openssh ssh service join like root.&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-0.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2nd-htb-vpn-connection&quot;&gt;2nd HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-1.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-1&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-2.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-2&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-3.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-3&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-4.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-4&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-5.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-5&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-6.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-6&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-7.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-7&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-8.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-8&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-9.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;last-step-to-root&quot;&gt;Last step to root&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-10.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-11.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-12.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-13.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-14.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-15.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-16.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-17.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-18.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-19.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-20.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-21.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-22.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-23.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-24.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-25.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-26.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-27.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-28.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-29.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-30.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-31.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-keeper/answer-32.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;</content><author><name>thi0x</name><email>amir.mehrez.garcia@gmail.com</email></author><category term="hackthebox" /><category term="SSH" /><category term="Default Credentials" /><category term="Nginx" /><category term="Weak Credentials" /><category term="Nginx" /><category term="HTTP" /><category term="SSH" /><category term="Nginx" /><category term="WAF" /><category term="dmp credentials" /><category term="Privilege Escalation" /><category term="Vulnerable and Outdated Components" /><category term="A06:2021" /><summary type="html">Keeper is a machine of HTB. The machine has a Website with nginx WAF, for this reason has access limited, later u can join to the system with default credentials, later get the password of an user lisa for the connection ssh, later download the .dmp file and recovery old session, next using the old session with private-openssh ssh service join like root.</summary></entry><entry><title type="html">CozyHosting - Hack The Box</title><link href="https://226218.github.io/htb-cozyhosting/" rel="alternate" type="text/html" title="CozyHosting - Hack The Box" /><published>2023-10-01T00:00:00-04:00</published><updated>2023-10-01T00:00:00-04:00</updated><id>https://226218.github.io/htb-cozyhosting</id><content type="html" xml:base="https://226218.github.io/htb-cozyhosting/">&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/cozyhosting_logo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;CozyHosting is a machine of HTB. The machine has a Website with nginx, for this reason has access limited, later u can steal the cookies of an site in actuators/sessions, with the session we can intercept the request to login, later doing using a reverse shell to join like app, next continue scanning all possibilities with linpeas and finally with a file .jar can get password of postgre where is the password of ssh service to Privileges Escalation.&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-0.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2nd-htb-vpn-connection&quot;&gt;2nd HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-1.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-1&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-2.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-2&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-3.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-3&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-4.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-4&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-5.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-5&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-6.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-6&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-7.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-7&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-8.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-8&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-9.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;last-step-to-root&quot;&gt;Last step to root&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-10.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-11.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-12.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-13.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-14.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-15.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-16.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-17.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-18.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-19.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-20.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-21.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-22.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-23.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-24.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-25.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-26.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-27.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-28.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-29.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-30.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-31.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-32.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-33.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-34.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-35.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-36.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-37.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-38.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-39.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-40.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-41.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-42.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-43.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-44.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-45.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-46.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-47.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-48.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-49.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-50.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-51.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-52.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-53.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-54.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-55.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-56.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-57.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-58.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-59.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-60.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-61.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-cozyhosting/answer-62.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;</content><author><name>thi0x</name><email>amir.mehrez.garcia@gmail.com</email></author><category term="hackthebox" /><category term="SSH" /><category term="Interception Credentials" /><category term="Burp Suite" /><category term="Weak Credentials" /><category term="Reverse Shell" /><category term="Linpeas.sh" /><category term="Nginx" /><category term="HTTP" /><category term="SSH" /><category term="burpsuite" /><category term="Postgresql" /><category term="Reverse Shell" /><category term="Privilege Escalation" /><category term="Security Misconfiguration" /><category term="A05:2021" /><summary type="html">CozyHosting is a machine of HTB. The machine has a Website with nginx, for this reason has access limited, later u can steal the cookies of an site in actuators/sessions, with the session we can intercept the request to login, later doing using a reverse shell to join like app, next continue scanning all possibilities with linpeas and finally with a file .jar can get password of postgre where is the password of ssh service to Privilege Escalation.</summary></entry><entry><title type="html">Sau - Hack The Box</title><link href="https://226218.github.io/htb-sau/" rel="alternate" type="text/html" title="Sau - Hack The Box" /><published>2023-09-26T00:00:00-04:00</published><updated>2023-09-26T00:00:00-04:00</updated><id>https://226218.github.io/htb-sau</id><content type="html" xml:base="https://226218.github.io/htb-sau/">&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/sau_logo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sau is a machine of HTB. The machine has a SSH port open and antoher service TCP, you can doing create an token HTTP to later open a service called Maltrail, later you can search an exploit in this service to claim the flag.&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-0.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2nd-htb-vpn-connection&quot;&gt;2nd HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-1.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-1&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-2.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-2&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-3.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-3&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-4.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-4&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-5.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-5&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-6.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-6&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-7.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-7&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-8.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-8&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-9.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;last-step-to-root&quot;&gt;Last step to root&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-10.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-11.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-12.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-13.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-14.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-15.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-16.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-17.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-18.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-19.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-20.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-21.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-22.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sau/answer-23.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;</content><author><name>thi0x</name><email>amir.mehrez.garcia@gmail.com</email></author><category term="hackthebox" /><category term="PHP" /><category term="Maltrail" /><category term="ssh" /><category term="Token" /><category term="HTTP" /><category term="Vulnerable Components" /><category term="Exploit CWE" /><category term="Vulnerable and outdated components" /><category term="A06:2021" /><summary type="html">Sau is a machine of HTB. The machine has a SSH port open and antoher service TCP, you can doing create an token HTTP to later open a service called Maltrail, later you can search an exploit in this service to claim the flag.</summary></entry><entry><title type="html">Responder - Hack The Box</title><link href="https://226218.github.io/htb-responder/" rel="alternate" type="text/html" title="Responder - Hack The Box" /><published>2023-09-18T00:00:00-04:00</published><updated>2023-09-18T00:00:00-04:00</updated><id>https://226218.github.io/htb-responder</id><content type="html" xml:base="https://226218.github.io/htb-responder/">&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/responder_logo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Appointment is a machine of Starting Point of HTB. The machine has a PHP web app and the objetive is find a command injection vulnerability in the site to claim the flag.&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/answer-0.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2nd-htb-vpn-connection&quot;&gt;2nd HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/answer-1.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-1&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/answer-2.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-2&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/answer-3.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-3&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/answer-4.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-4&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/answer-5.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-5&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/answer-6.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-6&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/answer-7.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-7&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/answer-8.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-8&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/answer-9.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;last-step-to-root&quot;&gt;Last step to root&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/answer-10.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/answer-11.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/answer-12.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/answer-13.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/answer-14.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/answer-15.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/answer-16.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/answer-17.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/answer-18.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/answer-19.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-responder/answer-20.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;</content><author><name>thi0x</name><email>amir.mehrez.garcia@gmail.com</email></author><category term="hackthebox" /><category term="PHP" /><category term="XAMPP" /><category term="Password Cracking" /><category term="NTLM" /><category term="SMB" /><category term="NTLM" /><category term="LFI" /><category term="Security Misconfiguration" /><category term="A05:2021" /><summary type="html">Responder is a machine of Starting Point of HTB. The machine has a PHP Website in Apache, you can doing LFI (local file inclusion) to claim the flag.</summary></entry><entry><title type="html">Crocodile - Hack The Box</title><link href="https://226218.github.io/htb-crocodile/" rel="alternate" type="text/html" title="Crocodile - Hack The Box" /><published>2023-09-15T00:00:00-04:00</published><updated>2023-09-15T00:00:00-04:00</updated><id>https://226218.github.io/htb-crocodile</id><content type="html" xml:base="https://226218.github.io/htb-crocodile/">&lt;p&gt;&lt;img src=&quot;/assets/images/htb-crocodile/crocodile_logo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Appointment is a machine of Starting Point of HTB. The machine has a PHP web app and the objetive is find a command injection vulnerability in the site to claim the flag.&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-crocodile/answer-0.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2nd-htb-vpn-connection&quot;&gt;2nd HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-crocodile/answer-1.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-1&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-crocodile/answer-2.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-2&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-crocodile/answer-3.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-3&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-crocodile/answer-4.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-4&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-crocodile/answer-5.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-5&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-crocodile/answer-6.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-6&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-crocodile/answer-7.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-7&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-crocodile/answer-8.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-8&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-crocodile/answer-9.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;last-step-to-root&quot;&gt;Last step to root&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-crocodile/answer-10.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-crocodile/answer-11.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-crocodile/answer-12.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-crocodile/answer-13.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-crocodile/answer-14.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-crocodile/answer-15.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-crocodile/answer-16.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;</content><author><name>thi0x</name><email>amir.mehrez.garcia@gmail.com</email></author><category term="hackthebox" /><category term="FTP" /><category term="Anynomus Connection" /><category term="Apache" /><category term="Weak Credentials" /><category term="FTP" /><category term="Security Misconfiguration" /><category term="A05:2021" /><summary type="html">Crocodile is a machine of Starting Point of HTB. The machine has a FTP Service and a Website in Apache where isn&apos;t possible connect without password to claim the flag.</summary></entry><entry><title type="html">Sequel - Hack The Box</title><link href="https://226218.github.io/htb-sequel/" rel="alternate" type="text/html" title="Sequel - Hack The Box" /><published>2023-09-13T00:00:00-04:00</published><updated>2023-09-13T00:00:00-04:00</updated><id>https://226218.github.io/htb-sequel</id><content type="html" xml:base="https://226218.github.io/htb-sequel/">&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sequel/sequel_logo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Appointment is a machine of Starting Point of HTB. The machine has a PHP web app and the objetive is find a command injection vulnerability in the site to claim the flag.&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sequel/answer-0.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2nd-htb-vpn-connection&quot;&gt;2nd HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sequel/answer-1.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-1&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sequel/answer-2.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-2&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sequel/answer-3.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-3&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sequel/answer-4.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-4&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sequel/answer-5.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-5&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sequel/answer-6.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-6&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sequel/answer-7.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-7&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sequel/answer-8.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;1st-htb-vpn-connection-8&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sequel/answer-9.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;last-step-to-root&quot;&gt;Last step to root&lt;/h2&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sequel/answer-10.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;##Answer&lt;/p&gt;
+
+&lt;p&gt;The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-sequel/answer-11.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;</content><author><name>thi0x</name><email>amir.mehrez.garcia@gmail.com</email></author><category term="hackthebox" /><category term="sql_injection" /><category term="MySQL" /><category term="Databases" /><category term="Weak Credentials" /><category term="mysql" /><category term="injection" /><category term="A07:2021" /><summary type="html">Sequel is a machine of Starting Point of HTB. The machine has a Mysql Service and it&apos;s possible connect without password to claim the flag.</summary></entry><entry><title type="html">Appointment - Hack The Box</title><link href="https://226218.github.io/htb-appointment/" rel="alternate" type="text/html" title="Appointment - Hack The Box" /><published>2023-08-13T00:00:00-04:00</published><updated>2023-08-13T00:00:00-04:00</updated><id>https://226218.github.io/htb-appointment</id><content type="html" xml:base="https://226218.github.io/htb-appointment/">&lt;p&gt;&lt;img src=&quot;/assets/images/htb-appointment/appointment_logo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Appointment is a machine of Starting Point of HTB. The machine has a PHP web app and the objetive is find a command injection vulnerability in the site to claim the flag.&lt;/p&gt;
 
 &lt;h2 id=&quot;1st-htb-vpn-connection&quot;&gt;1st HTB VPN connection&lt;/h2&gt;
 
@@ -61,23 +1096,11 @@ Appointment is a machine of Starting Point of HTB. The machine has a PHP web app
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/htb-appointment/answer9.png&quot; alt=&quot;image-20200519201954045&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;#Then we’ll change the Group ID to 27 (sudo) so our user will be able to become root once we have a shell.&lt;/p&gt;
-
-&lt;p&gt;#&lt;img src=&quot;/assets/images/htb-writeup-travel/image-20200519223450128.png&quot; alt=&quot;image-20200519223450128&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;#To add an SSH public key, we need to add the &lt;strong&gt;ldapPublicKey&lt;/strong&gt; object class first.&lt;/p&gt;
-
-&lt;p&gt;#&lt;img src=&quot;/assets/images/htb-writeup-travel/image-20200519223537871.png&quot; alt=&quot;image-20200519223537871&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;#Then we can add the &lt;strong&gt;sshPublic&lt;/strong&gt; attribute and put our SSH key there.&lt;/p&gt;
-
-&lt;p&gt;#&lt;img src=&quot;/assets/images/htb-writeup-travel/image-20200519223658288.png&quot; alt=&quot;image-20200519223658288&quot; /&gt;&lt;/p&gt;
-
 &lt;h2 id=&quot;last-step-to-root&quot;&gt;Last step to root&lt;/h2&gt;
 
-&lt;p&gt;#Now we can SSH to the server using RSA authentication then use the sudo command with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;welcome123&lt;/code&gt; password we set earlier in the LDAP server.&lt;/p&gt;
+&lt;p&gt;Now we can SSH to the server using RSA authentication then use the sudo command with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;welcome123&lt;/code&gt; password we set earlier in the LDAP server.&lt;/p&gt;
 
-&lt;p&gt;#&lt;img src=&quot;/assets/images/htb-writeup-travel/image-20200519223748937.png&quot; alt=&quot;image-20200519223748937&quot; /&gt;&lt;/p&gt;</content><author><name>thi0x</name><email>amir.mehrez.garcia@gmail.com</email></author><category term="hackthebox" /><category term="sql_injection" /><category term="php" /><category term="mysql" /><category term="injection" /><category term="A03:2021" /><summary type="html">Appointment is a machine of Starting Point of HTB. The machine has a PHP web app and the objetive is find a command injection vulnerability in the site to claim the flag.</summary></entry><entry><title type="html">Travel - Hack The Box</title><link href="https://226218.io/htb-writeup-travel/" rel="alternate" type="text/html" title="Travel - Hack The Box" /><published>2020-09-05T00:00:00-04:00</published><updated>2020-09-05T00:00:00-04:00</updated><id>https://226218.io/htb-writeup-travel</id><content type="html" xml:base="https://226218.io/htb-writeup-travel/">&lt;p&gt;&lt;img src=&quot;/assets/images/htb-writeup-travel/travel_logo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/htb-writeup-travel/image-20200519223748937.png&quot; alt=&quot;image-20200519223748937&quot; /&gt;&lt;/p&gt;</content><author><name>thi0x</name><email>amir.mehrez.garcia@gmail.com</email></author><category term="hackthebox" /><category term="sql_injection" /><category term="php" /><category term="mysql" /><category term="injection" /><category term="A03:2021" /><summary type="html">Appointment is a machine of Starting Point of HTB. The machine has a PHP web app and the objetive is find a command injection vulnerability in the site to claim the flag.</summary></entry><entry><title type="html">Travel - Hack The Box</title><link href="https://226218.github.io/htb-writeup-travel/" rel="alternate" type="text/html" title="Travel - Hack The Box" /><published>2020-09-05T00:00:00-04:00</published><updated>2020-09-05T00:00:00-04:00</updated><id>https://226218.github.io/htb-writeup-travel</id><content type="html" xml:base="https://226218.github.io/htb-writeup-travel/">&lt;p&gt;&lt;img src=&quot;/assets/images/htb-writeup-travel/travel_logo.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Travel is an awesome box from my ATeam teammates &lt;a href=&quot;https://twitter.com/xct_de&quot;&gt;xct&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/ATeamJKR&quot;&gt;jkr&lt;/a&gt;. The box has a code review part where we analyze the source code of a PHP web app to find a command injection vulnerability in a curl command. We then use the Gopher protocol to perform SSRF and write a serialized PHP payload into the memcache database. For the priv esc part, we manipulate attributes of a user in an LDAP database which is used by the NSS facility to extend the Linux authentication database.&lt;/p&gt;
 
