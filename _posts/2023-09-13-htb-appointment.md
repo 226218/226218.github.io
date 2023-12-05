@@ -72,18 +72,12 @@ We founded a web called LOG IN and how it is part of injection information, we o
 
 ## 8th We founded the flag
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+We used the last credentials and we got the flag
 
 ![image-20200519201954045](/assets/images/htb-appointment/answer8.png)
 
-## 1st HTB VPN connection
+## Last step
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+Finally the last step is to put all the answers how the word and the flag.
 
 ![image-20200519201954045](/assets/images/htb-appointment/answer9.png)
-
-## Last step to root
-
-Now we can SSH to the server using RSA authentication then use the sudo command with the `welcome123` password we set earlier in the LDAP server.
-
-![image-20200519223748937](/assets/images/htb-writeup-travel/image-20200519223748937.png)
