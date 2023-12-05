@@ -30,7 +30,7 @@ The initials goals of the HTB in this Starting Point are connect with the machin
 
 ![image-20200519201954045](/assets/images/htb-sequel/answer-0.png)
 
-## 2nd HTB VPN connection
+## 2nd Task
 
 The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
 
