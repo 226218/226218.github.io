@@ -36,200 +36,158 @@ The initials goals of the HTB in this Starting Point are connect with the machin
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-0.png)
 
-## 2nd HTB VPN connection
+## 2nd Step to Solving
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+Create the folder for the machine Keeper
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-1.png)
 
-## 1st HTB VPN connection
+## 3rd Step to Solving
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+Scanning all open ports and get two services open in the target machine 22/TCP and 80/TCP, a service ssh and service http
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-2.png)
 
-## 1st HTB VPN connection
+## 4th Step to Solving
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+nmap consult for get the version of the service and more information using the command -sV
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-3.png)
 
-## 1st HTB VPN connection
+## 5th  Step to Solving
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+We join to the website in the target machine
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-4.png)
 
-## 1st HTB VPN connection
+## 6th Step to Solving
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+We added the dns of the target machine
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-5.png)
 
-## 1st HTB VPN connection
+## 7th Step to Solving
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+We joined to the real website of the target machine
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-6.png)
 
-## 1st HTB VPN connection
-
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+## 8th Step to Solving
+We used the tool nuclei for did pentesting in websites and another services
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-7.png)
 
-## 1st HTB VPN connection
+## 9th Step to Solving
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+We tried to connect with the service ssh using anonymous credentials 
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-8.png)
 
-## 1st HTB VPN connection
+## 10th Step to Solving
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+We founded information about the target machine, it is the name of the service server called "Request Tracker -- Best Practical" 
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-9.png)
 
-## Last step to root
+## 11th Step to Solving
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+We search in the website exploit-db about request tracker
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-10.png)
 
-##Answer
+## 12th Step to Solving
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+We founded a sql-injection method
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-11.png)
 
-##Answer
+## 13th Step to Solving
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+We search if exist default credentials in google
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-12.png)
 
-##Answer
+## 14th Step to Solving
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+We founded default credentials root and password
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-13.png)
 
-##Answer
+## 15th Step to Solving
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+We joined to the system website of the target machine
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-14.png)
 
 
-##Answer
+## 16th Step to Solving
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+We searched another credentials for the service ssh and founded the password 2023! for the user lnorgaard
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-15.png)
 
-
-##Answer
-
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
-
 ![image-20200519201954045](/assets/images/htb-keeper/answer-16.png)
- 
-##Answer
-
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-17.png)
  
-##Answer
+## 17th Step to Solving
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
-
+We joined to the service ssh
 ![image-20200519201954045](/assets/images/htb-keeper/answer-18.png)
- 
-##Answer
-
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-19.png)
  
-##Answer
-
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
-
+## 18th The First flag
+We founded the first flag
 ![image-20200519201954045](/assets/images/htb-keeper/answer-20.png)
  
-##Answer
+## 19th The First flag
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+We founded a .dmp file with the database information
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-21.png)
- 
-##Answer
-
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-22.png)
- 
-##Answer
-
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-23.png)
  
-##Answer
+## 20th The First flag
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
-
+We used a program in py trying to open the dmp file
 ![image-20200519201954045](/assets/images/htb-keeper/answer-24.png)
  
-##Answer
-
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+## 21th The First flag
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-25.png)
  
-##Answer
-
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
-
 ![image-20200519201954045](/assets/images/htb-keeper/answer-26.png)
- 
-##Answer
-
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-27.png)
- 
-##Answer
-
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-28.png)
  
-##Answer
+## 22th The First flag
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+We founded a Putty-user-key session ssh-rsa
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-29.png)
  
-##Answer
+## 23th The First flag
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+We search how to change ssh-rsa to ssh session 
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-30.png)
  
-##Answer
+## 24th The First flag
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
-
+Finally we joined to the root user in the target machine keeper
 ![image-20200519201954045](/assets/images/htb-keeper/answer-31.png)
  
 ##Answer
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+Finally we putted the flag in HTB
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-32.png)
- 
-##Answer
+
 
 
