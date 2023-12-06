@@ -1,50 +1,69 @@
 ---
 layout: single
-title: Keeper - Hack The Box
-excerpt: "Keeper is a machine of HTB. The machine has a Website with nginx WAF, for this reason has access limited, later u can join to the system with default credentials, later get the password of an user lisa for the connection ssh, later download the .dmp file and recovery old session, next using the old session with private-openssh ssh service join like root."
-date: 2023-10-05
+title: ISO 27001 - Phases Sample - Fernando
+excerpt: "Distribuciones Mariano is a company dedicated to the sale and installation of electrical equipment to individuals and electrical material to individuals and professionals nationwide. In order to optimize the processes, Distribuciones Mariano has acquired a platform for Internet. The purpose of this report is to show my way of developing audit reports based in Phases and Process."
+date: 2023-12-06
 classes: wide
 header:
   teaser: /assets/images/htb-keeper/keeper_logo.png
   teaser_home_page: true
   icon: /assets/images/hackthebox.webp
 categories:
-  - hackthebox
-  - SSH
-  - Default Credentials
-  - Nginx
-  - Weak Credentials
+  - ISO
+  - 27001
+  - eMarisma
+  - Auditing
 tags:
-  - Nginx
-  - HTTP
-  - SSH
-  - Nginx
-  - WAF
-  - dmp credentials
-  - Privilege Escalation
-  - Vulnerable and Outdated Components
-  - A06:2021
----
+  - Phases
+  - 27001
+  - Audit
+  - Inform
+  - Samples
+  - Portfolio
+  ---
 
 ![](/assets/images/htb-keeper/keeper_logo.png)
 
-Keeper is a machine of HTB. The machine has a Website with nginx WAF, for this reason has access limited, later u can join to the system with default credentials, later get the password of an user lisa for the connection ssh, later download the .dmp file and recovery old session, next using the old session with private-openssh ssh service join like root.
 
-## 1st HTB VPN connection
+## Background
 
-The initials goals of the HTB in this Starting Point are connect with the machine. We only need download vpn and connect with OVPN
+Distribuciones Mariano is a company dedicated to the sale and installation of electrical equipment to individuals and
+electrical material to individuals and professionals nationwide.
 
-![image-20200519201954045](/assets/images/htb-keeper/answer-0.png)
+In order to optimize the processes, Distribuciones Mariano has acquired a platform for platform so that from the Internet:
+  - Its customers can place their orders, both for individuals and professionals.
+professionals.
+  - Professionals can opt for installations and works.
 
-## 2nd Step to Solving
+On this platform you will find the inventory of products, accounting, as well as all the data of the all the data of the customers or professionals (both groups; among these data are their demographics and demographic and financial data).
+In order to access the platform, from the Distribuciones Mariano's website you select whether you are a private individual or a professional, and then you can access your personal personal zone. Similarly, there is an administration area that is managed exclusively by Distribuciones Mariano's staff. exclusively by Distribuciones Mariano staff.
+Distribuciones Mariano, conscious of the importance of this platform, wants to to carry out a security review of this, so we request commercial offers from different suppliers.
+to different suppliers.
+In addition to the information provided above, Distribuciones Mariano comments to the suppliers that the platform is hosted by the company.
+suppliers that the platform is hosted in its Data Processing Center (CPD), which contains a database that it contains an Oracle database and that all the development and maintenance services are outsourced to a third party and maintenance is outsourced to another company.
 
-Create the folder for the machine Keeper
+Once these casuistries are understood, it is requested to perform a complete report of security audit of the distribuciones Mariano platform. This audit should be focused under the audit practice on access, DB or security in the DPC.
+in the DPC.
 
-![image-20200519201954045](/assets/images/htb-keeper/answer-1.png)
 
-## 3rd Step to Solving
+## Goals
 
-Scanning all open ports and get two services open in the target machine 22/TCP and 80/TCP, a service ssh and service http
+The objective of IT Security is to protect against threats, in order to ensure the continuity of information systems, minimize ensure the continuity of information systems, minimize damage, maximize the return on investments and opportunities. In the case of Distribuciones Mariano, the information of product inventory, accounting, transactions and customer data represent one of the most important transactions and customer data represent one of the most important assets of the business. business. For this reason, an audit must be carried out in order to implement an adequate set of controls and measures that an adequate set of controls and measures comprising policies, procedures, practices, organizational structures, procedures, practices, organizational structures, policies and measures, procedures, practices, organizational structures, software or hardware functions.
+The objectives of an IT audit are to control the IT function, analyze the efficiency and effectiveness of the the analysis of the efficiency of the IT systems involved, the verification of compliance with the the verification of compliance with the company's general regulations in this field and the review of the and the review of the effective management of resources. In the acquisition and design of information systems, in some cases, good practices are not taken into consideration or security regulations are overlooked, which ensure that, redundantly, a system is secure. For The level of security that can be achieved by technical means is therefore limited and must be supported by adequate management and procedures, involving the organization's employees of the organization, and even in some cases, suppliers and/or customers.
+
+In the current report the process and phases of the audit will be carried out focused under the audit practice on access, DB or security in the DPC (Data Processing Center).
+(Data Processing Center). 
+
+## Scope
+
+The scope of this document will focus, as previously mentioned in the objectives, on 3 pillars.
+objectives, in 3 pillars, which are:
+  - Audit on accesses
+  - Audit on DB
+  - DPC security.
+Thus, each of these should go hand in hand with the controls presented,
+This will ensure that an audit of the same can be carried out in the subsequent term, as defined.
+of the same, with the defined.
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-2.png)
 
