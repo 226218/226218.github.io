@@ -151,12 +151,12 @@ We founded a .dmp file with the database information
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-23.png)
  
-## 20th The First flag
+## 20th Step to Solving
 
 We used a program in py trying to open the dmp file
 ![image-20200519201954045](/assets/images/htb-keeper/answer-24.png)
  
-## 21th The First flag
+## 21th Step to Solving
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-25.png)
  
@@ -166,26 +166,26 @@ We used a program in py trying to open the dmp file
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-28.png)
  
-## 22th The First flag
+## 22th Step to Solving
 
 We founded a Putty-user-key session ssh-rsa
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-29.png)
  
-## 23th The First flag
+## 23th Step to Solving
 
 We search how to change ssh-rsa to ssh session 
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-30.png)
  
-## 24th The First flag
+## 24th Step to Solving
 
 Finally we joined to the root user in the target machine keeper
 ![image-20200519201954045](/assets/images/htb-keeper/answer-31.png)
  
-##Answer
+## Second Flag 
 
-Finally we putted the flag in HTB
+Finally we putted the second flag in HTB
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-32.png)
 
