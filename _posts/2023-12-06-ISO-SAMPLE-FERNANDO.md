@@ -15,7 +15,7 @@ categories:
   - Auditing
 tags:
   - Phases
-  - 27001
+  - ISO27001
   - Audit
   - Inform
   - Samples
