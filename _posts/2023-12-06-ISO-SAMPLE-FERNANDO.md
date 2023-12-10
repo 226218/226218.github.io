@@ -13,14 +13,18 @@ categories:
   - 27001
   - eMarisma
   - Auditing
+  - Inform
 tags:
   - Phases
   - ISO27001
   - Audit
   - Inform
   - Samples
+  - Report
   - Portfolio
-  ---
+  - Vulnerable and Outdated Components
+  - A06:2021
+---
 
 ![](/assets/images/htb-keeper/keeper_logo.png)
 
