@@ -22,7 +22,6 @@ tags:
   - Samples
   - Report
   - Portfolio
-  - Vulnerable and Outdated Components
 ---
 
 ![](/assets/images/htb-keeper/keeper_logo.png)
