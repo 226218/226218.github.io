@@ -10,7 +10,7 @@ header:
   icon: /assets/images/hackthebox.webp
 categories:
   - ISO
-  - 27001
+  - "27001"
   - eMarisma
   - Auditing
   - Inform
