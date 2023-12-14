@@ -1,6 +1,6 @@
 ---
 layout: single
-title: ISO27001 - Phases Sample
+title: ISO27001 - Phases Sample by Fernando
 excerpt: "Distribuciones Mariano is a company dedicated to the sale and installation of electrical equipment to individuals and electrical material to individuals and professionals nationwide. In order to optimize the processes, Distribuciones Mariano has acquired a platform for Internet. The purpose of this report is to show my way of developing audit reports based in Phases and Process."
 date: 2023-12-06
 classes: wide
