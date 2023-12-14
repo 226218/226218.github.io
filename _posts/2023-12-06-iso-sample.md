@@ -5,7 +5,7 @@ excerpt: "Distribuciones Mariano is a company dedicated to the sale and installa
 date: 2023-12-06
 classes: wide
 header:
-  teaser: /assets/images/htb-keeper/keeper_logo.png
+  teaser: /assets/images/iso-sample/ISO-logo.png
   teaser_home_page: true
   icon: /assets/images/hackthebox.webp
 categories:
@@ -24,7 +24,7 @@ tags:
   - Portfolio
 ---
 
-![](/assets/images/htb-keeper/keeper_logo.png)
+![](/assets/images/iso-sample/ISO-logo.png)
 
 
 ## Background
