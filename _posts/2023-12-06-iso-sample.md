@@ -56,30 +56,44 @@ The objectives of an IT audit are to control the IT function, analyze the effici
 In the current report the process and phases of the audit will be carried out focused under the audit practice on access, DB or security in the DPC (Data Processing Center).
 (Data Processing Center). 
 
-## Scope
+## Methodology
 
-The scope of this document will focus, as previously mentioned in the objectives, on 3 pillars.
-objectives, in 3 pillars, which are:
-  - Audit on accesses
-  - Audit on DB
-  - DPC security.
-Thus, each of these should go hand in hand with the controls presented,
-This will ensure that an audit of the same can be carried out in the subsequent term, as defined.
-of the same, with the defined.
+There are currently three types of audit methodologies: ROA (risk oriented approach), simplified EDR Checklist or questionnaires and advanced EDR product audit.
+The generic EDR methodology presented in this report is the most widely used and general one. The whole process is divided into three parts: develop, implement and monitor.
 
-![image-20200519201954045](/assets/images/htb-keeper/answer-2.png)
+![image-20200519201954045](/assets/images/iso-sample/iso-sample-1.png)
 
-## 4th Step to Solving
+The develop of the audit of a company's information system consists of identifying the origin of the audit, i.e. where the audit will start, then a preliminary visit to the area must be made. Then we proceed to establish the objectives that we want to achieve, determine the points that will be evaluated in the audit and develop plans, schedules and budgets for their realization. Then the methods, tools, instruments and procedures necessary for the audit must be identified and selected and the resources and systems that will be useful for the audit must be allocated (Kimat, 2018). Being a little more detailed with the process of a generic EDR audit, as we can divide the 3 parts mentioned in 6 phases, as in the illustration of the course slides. 
 
-nmap consult for get the version of the service and more information using the command -sV
+![image-20200519201954045](/assets/images/iso-sample/iso-sample-2.png)
 
-![image-20200519201954045](/assets/images/htb-keeper/answer-3.png)
+As it could be seen in the illustration, the scope is a very important stage that defines the future processes for the realization of this type of projects, being essential to achieve the quantification of assets, threats, vulnerability, risks and future treatment plan.
+
+Additionally, there is a compliance chart in the RGPD, which allows to verify from a checklist if the regulation is being complied with for the development of the application and the security of the information. Since it is a bit long, I will attach some small tables in the annexes section on the document in question.
+
+
+## Executive Summary
+The management of Distribuciones Mariano is aware of the importance of protecting the Information and consequently the Systems and Technologies that support and manage it, in order to safeguard the correct performance of the Company's business processes.
+For this reason, Distribuciones Mariano has set as an objective the elaboration of an Information Security audit, but above all in the topics of Accesses, BBDD and CPD; this because it handles orders for professionals as well as individuals, and professionals can opt for installations and works; for this reason payments can be generated within their platforms and reservations. As a result of the work carried out, it is concluded that Distribuciones Mariano's information security situation is at a level (1) Initial / (2) Developing (on a scale of 0 to 4).
+This company has implemented controls to ensure information security, but some parameters were not established in addition to configurations based on continuous audits, for this reason it is considered that the processes that are managed within their platforms can be improved and better maintain the integrity of the data of its users, thus, it would also control that there is no disclosure of information either by its users (direct employees) and those of the service that provide maintenance.
+In this way, the confidentiality, integrity, availability and traceability of the information is achieved more efficiently, avoiding that these deficiencies could lead to service, financial and reputational losses. The current state of Information Security in Distribuciones Mariano contemplates a high knowledge of the criticality of the information that is treated in the great majority of the company's business processes, besides having contemplated the RGPD keeping the rules to the letter. But the lack of audits and and good continuous practices in their systems, among employees and external personnel, The lack of information security regulations means that most of the actions and information processing are carried out by means of common sense rules or behaviors and/or the experience acquired during their professional career, although it is not possible to find an extreme or atypical case.
+It is worth highlighting positive aspects on the management and treatment of information in a secure manner. Of special mention is the security inside the Data Processing Centers (DPC), where it has been evidenced the adoption of perimeter and environmental security measures, capable of safeguarding the physical security of the assets inside. But it needs a mirror backup server in case of any type of incident.
+All this can be due to the following deficiencies:
+- The lack of training, awareness and sensitization in Information Security, especially in audits and good practices can cause negligence in the actions of the personnel and increase the level of risk on the organization. (It is recommended to train the employees of systems in these practices).
+- The current Information Security normative body in Distribuciones Mariano is not able to reflect any action and casuistry that can be performed on the treated information, since it depends on the support provided by the service. The lack of information leakage control sanctions could cause important vulnerabilities in the information security, the company's business object and in its reputation.
+- There is a lack of global and formal definition of roles, responsibilities and incompatibilities, capable of constituting the necessary basis to maintain the Information Security and to be able, in this way, to define a non-compliance framework based on the applicable regulatory body and legislation in force.
+- The need for a backup server has been detected in certain contractual cases.
+- A deficient level of security has been identified in remote accesses.
+- The lack of a continuous audit process, which can be carried out by systems employees.
+For all these reasons, we suggest implementing a series of organizational, procedural, technical and contractual actions, both internal, as well as models of relationship and supervision of suppliers (third parties) in order to avoid, among others, possible information leaks or failures in the security of the same. The following graph shows the current level of compliance in each of the areas that make up Annex A of ISO/IEC 27001 (Information Security Management System). This level of compliance has been calculated based on the following values:
+
+![image-20200519201954045](/assets/images/iso-sample/iso-sample-3.png)
 
 ## 5th  Step to Solving
 
 We join to the website in the target machine
 
-![image-20200519201954045](/assets/images/htb-keeper/answer-4.png)
+
 
 ## 6th Step to Solving
 
@@ -104,105 +118,7 @@ We tried to connect with the service ssh using anonymous credentials
 
 ![image-20200519201954045](/assets/images/htb-keeper/answer-8.png)
 
-## 10th Step to Solving
 
-We founded information about the target machine, it is the name of the service server called "Request Tracker -- Best Practical" 
-
-![image-20200519201954045](/assets/images/htb-keeper/answer-9.png)
-
-## 11th Step to Solving
-
-We search in the website exploit-db about request tracker
-
-![image-20200519201954045](/assets/images/htb-keeper/answer-10.png)
-
-## 12th Step to Solving
-
-We founded a sql-injection method
-
-![image-20200519201954045](/assets/images/htb-keeper/answer-11.png)
-
-## 13th Step to Solving
-
-We search if exist default credentials in google
-
-![image-20200519201954045](/assets/images/htb-keeper/answer-12.png)
-
-## 14th Step to Solving
-
-We founded default credentials root and password
-
-![image-20200519201954045](/assets/images/htb-keeper/answer-13.png)
-
-## 15th Step to Solving
-
-We joined to the system website of the target machine
-
-![image-20200519201954045](/assets/images/htb-keeper/answer-14.png)
-
-
-## 16th Step to Solving
-
-We searched another credentials for the service ssh and founded the password 2023! for the user lnorgaard
-
-![image-20200519201954045](/assets/images/htb-keeper/answer-15.png)
-
-![image-20200519201954045](/assets/images/htb-keeper/answer-16.png)
-
-![image-20200519201954045](/assets/images/htb-keeper/answer-17.png)
- 
-## 17th Step to Solving
-
-We joined to the service ssh
-![image-20200519201954045](/assets/images/htb-keeper/answer-18.png)
-
-![image-20200519201954045](/assets/images/htb-keeper/answer-19.png)
- 
-## 18th The First flag
-We founded the first flag
-![image-20200519201954045](/assets/images/htb-keeper/answer-20.png)
- 
-## 19th The First flag
-
-We founded a .dmp file with the database information
-
-![image-20200519201954045](/assets/images/htb-keeper/answer-21.png)
-
-![image-20200519201954045](/assets/images/htb-keeper/answer-22.png)
-
-![image-20200519201954045](/assets/images/htb-keeper/answer-23.png)
- 
-## 20th Step to Solving
-
-We used a program in py trying to open the dmp file
-![image-20200519201954045](/assets/images/htb-keeper/answer-24.png)
- 
-## 21th Step to Solving
-
-![image-20200519201954045](/assets/images/htb-keeper/answer-25.png)
- 
-![image-20200519201954045](/assets/images/htb-keeper/answer-26.png)
-
-![image-20200519201954045](/assets/images/htb-keeper/answer-27.png)
-
-![image-20200519201954045](/assets/images/htb-keeper/answer-28.png)
- 
-## 22th Step to Solving
-
-We founded a Putty-user-key session ssh-rsa
-
-![image-20200519201954045](/assets/images/htb-keeper/answer-29.png)
- 
-## 23th Step to Solving
-
-We search how to change ssh-rsa to ssh session 
-
-![image-20200519201954045](/assets/images/htb-keeper/answer-30.png)
- 
-## 24th Step to Solving
-
-Finally we joined to the root user in the target machine keeper
-![image-20200519201954045](/assets/images/htb-keeper/answer-31.png)
  
 ## Second Flag 
 
