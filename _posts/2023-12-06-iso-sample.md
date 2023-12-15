@@ -61,7 +61,7 @@ In the current report the process and phases of the audit will be carried out fo
 There are currently three types of audit methodologies: ROA (risk oriented approach), simplified EDR Checklist or questionnaires and advanced EDR product audit.
 The generic EDR methodology presented in this report is the most widely used and general one. The whole process is divided into three parts: develop, implement and monitor.
 
-![image-20200519201954045](/assets/images/iso-sample/iso-sample-1.png)
+![image-20200519201954045](/assets/images/iso-sample/iso-sample-1.PNG)
 
 The develop of the audit of a company's information system consists of identifying the origin of the audit, i.e. where the audit will start, then a preliminary visit to the area must be made. Then we proceed to establish the objectives that we want to achieve, determine the points that will be evaluated in the audit and develop plans, schedules and budgets for their realization. Then the methods, tools, instruments and procedures necessary for the audit must be identified and selected and the resources and systems that will be useful for the audit must be allocated (Kimat, 2018). Being a little more detailed with the process of a generic EDR audit, as we can divide the 3 parts mentioned in 6 phases, as in the illustration of the course slides. 
 
@@ -87,7 +87,7 @@ All this can be due to the following deficiencies:
 - The lack of a continuous audit process, which can be carried out by systems employees.
 For all these reasons, we suggest implementing a series of organizational, procedural, technical and contractual actions, both internal, as well as models of relationship and supervision of suppliers (third parties) in order to avoid, among others, possible information leaks or failures in the security of the same. The following graph shows the current level of compliance in each of the areas that make up Annex A of ISO/IEC 27001 (Information Security Management System). This level of compliance has been calculated based on the following values:
 
-![image-20200519201954045](/assets/images/iso-sample/iso-sample-3.png)
+![image-20200519201954045](/assets/images/iso-sample/iso-sample-3.PNG)
 
 ## 5th  Step to Solving
 
