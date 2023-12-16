@@ -104,11 +104,10 @@ Due to the fact that this audit plan is focused on Access, DB and DPC Security, 
 | [N.2] Water damage                                    | The IT department must ensure that there is no way for the DPC to be flooded, taking into account architectural issues and physical reviews.               | Control and backup procedures in the event of water damage to the data center.                                                   | Check that a procedure has been implemented for the protection of the DPC against water damage or the backup of the DPC in case it happens in order to have the service available. | This type of checks can be done by physical checks or by having a backup mirror server if necessary.                                                     |
 
 ## Action Plan 
-
+| Asset Management | Reco1 | Access control implementation | Short term |
+|------------------|-------|-------------------------------|------------|
 Description of the recommendation
-The implementation of user access control should be taken into consideration to verify that permissions are being well controlled.
-to verify that the permissions are being well controlled,
-This is done by verifying the accesses to the system.
+The implementation of user access control should be taken into consideration to verify that permissions are being well controlled, this is done by verifying the accesses to the system.
 Actions
 - Identification of the types of permissions handled.
 - Identification of the permissions per system.
