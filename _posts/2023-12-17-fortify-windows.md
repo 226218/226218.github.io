@@ -259,15 +259,15 @@ Everything you wanted to know about arrays (powershellexplained.com)
 
 active directory - New-ADUser -Path syntax? - Server Fault
 
-New-ADUser (ActiveDirectory) | Microsoft Docs
+New-ADUser (ActiveDirectory) Microsoft Docs
 
-Get-ADDomain (ActiveDirectory) | Microsoft Docs
+Get-ADDomain (ActiveDirectory) Microsoft Docs
 
 PowerShell Array Guide: How to Use and Create (varonis.com)
 
-New-ADGroup (ActiveDirectory) | Microsoft Docs
+New-ADGroup (ActiveDirectory) Microsoft Docs
 
-PowerShell Concatenate String | Different Examples of Concatenate String
+PowerShell Concatenate String Different Examples of Concatenate String
 
 (educba.com)
 
