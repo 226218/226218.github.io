@@ -112,11 +112,15 @@ Due to the fact that this audit plan is focused on Access, DB and DPC Security, 
 Description of the recommendation
 
 The implementation of user access control should be taken into consideration to verify that permissions are being well controlled, this is done by verifying the accesses to the system.
+
 Actions
+
 - Identification of the types of permissions handled.
 - Identification of the permissions per system.
 - Inventory all types of access to access the systems.
+
 Benefits
+
 - Significant improvement in the security of access to the systems. 
 
 | Control | Code | Suggestion | Term |
@@ -124,13 +128,18 @@ Benefits
 | Asset Management | Reco2 | Implementation of user identity verifier (Accesses) | Medium term |
 
 Description of the recommendation
+
 It is verified that the implementation of access control to manage user identity should be taken into consideration.
+
 Actions
+
 - Identification of the access process to a given system
 - Identification of how the identity of a user is checked.
 - Inventory all access processes
 - Enable access through digital signatures or biometric devices.
+  
 Benefits
+
 - Significant improvement in system access security
 
 | Control | Code | Suggestion | Term |
@@ -138,13 +147,17 @@ Benefits
 | Asset Management | Reco3 | Implementation of user privilege verifier | Medium term |
 
 Description of the recommendation
+
 The implementation of access control to manage user privileges should be taken into consideration.
-access control to manage user privileges should be taken into consideration.
+
 Actions
+
 - Identification of user permissions and privileges
 - Identification of privilege escalation.
 - Mapping system servers with vulnerability and privilege escalation tools.
+  
 Benefits
+
 - Significantly improves access through privileges 
 
 | Control | Code | Suggestion | Term |
@@ -152,12 +165,17 @@ Benefits
 | Information Management | Reco4 | Configuration Manipulation checker implementation | Short term |
 
 Description of the recommendation
+
 It is verified that the implementation of control of to verify configuration manipulation should be taken into consideration.
+
 Actions
+
 - Identification of server configurations
 - Block access to server permissions settings for third party service.
 - Map accesses to information and logs of entries and executions by third parties.
+ 
 Benefits
+
 - Significantly improves the failures that can occur when a third party has access to non-displayed tools. 
 
 | Control | Code | Suggestion | Term |
@@ -165,12 +183,17 @@ Benefits
 | Information Management | Reco5 | Configuration Manipulation checker implementation | Short term |
 
 Description of the recommendation
+
 It is found that the implementation of control of to verify configuration manipulation should be taken into consideration.
+
 Actions
+
 - Identification of server configurations
 - Block access to server permissions settings for third party service.
 - Map accesses to information and logs of entries and executions by third parties.
+
 Benefits
+
 - Significantly improves bugs and vulnerabilities that can occur when a third party has access to tools that they should not.
 
 | Control | Code | Suggestion | Term |
@@ -178,12 +201,17 @@ Benefits
 | Information Management | Reco6 | Implementation of policies against Disclosure of information (BBDD) | Short term |
 
 Description of the recommendation
+
 It is verified that the implementation of an organizational policy against the disclosure of information to workers and the contract with the third party service that provides maintenance should be taken into consideration.
+
 Actions
+
 - Identification of current policies on information disclosure.
 - Map the accesses to information and users who have access to sensitive information that could at some point affect customers.
 - Create objective sanctions for users who disclose information depending on the degree of disclosure.
+  
 Benefits
+
 - Condition users who violate the rules to have a present responsibility for the stipulated policies. 
 
 | Control | Code | Suggestion | Term |
@@ -191,19 +219,26 @@ Benefits
 | Technology Management | Reco7 | Deployment of mirrored backup servers when having Water Damage | Short term |
 
 Description of recommendation
+
 Consideration of implementing a mirrored server if water damage were to occur is tested.
+
 Actions
+
 - Identify the physical area of the DPC
 - Identify if there are any architectural or visually verifiable flaws.
 - Identify the physical location of the DPC.
 - Create a mirror server for the DB that receives backups of the DB day.
 - Implement a contingency policy and deploy the backup server in case of water damage.
+
 Benefits
+
 - Allows to provide almost immediate availability in case of server failure.
 - Allows the company's service not to be down if something were to happen. 
 
 ## Annexes
+
 Planning
+
 Next, we will detail the time and resources that will be needed for the development of the audit. Two auditors will be required to travel to Distribuciones Mariano's facilities between the months of June and September 2022.
 BeAuditors, through the Account Manager, is committed to the 2 auditors meet the following requirements:
 Senior Auditor
