@@ -57,7 +57,7 @@ We see that the installation has finished correctly:
 
 ![image-20200519201954045](/assets/images/fortify-windows/windows-sample-5.PNG)
 
-##We promote the domain controller 
+## We promote the domain controller 
 
 After the reboot, we will configure the domain controller as indicated in the activity, with the domain name sso.com
 
@@ -67,13 +67,13 @@ After giving the options this script is created in case you want to autogenerate
 
 ![image-20200519201954045](/assets/images/fortify-windows/windows-sample-7.PNG)
 
-##WINDOWS 2012 SERVER CONFIGURATION
+## WINDOWS 2012 SERVER CONFIGURATION
 
 We have chosen to create an OU (Organizational Unit) named "Groups" within the active directory, for better management of groups and user accounts.
 
 ![image-20200519201954045](/assets/images/fortify-windows/windows-sample-8.PNG)
 
-##Creation of workgroups
+## Creation of workgroups
 
 The script is created on disk C, "C:/scripts/users.ps1".
 
@@ -81,7 +81,7 @@ The first part of the script is used to create the Departments (groups) requeste
 
 ![image-20200519201954045](/assets/images/fortify-windows/windows-sample-9.PNG)
 
-##Powershell user creation
+## Powershell user creation
 
 ```ps1 The code
 
@@ -149,7 +149,7 @@ Checks whether the users were created successfully and whether the users were as
 
 ![image-20200519201954045](/assets/images/fortify-windows/windows-sample-10.PNG)
 
-##Creating a shared resource
+## Creating a shared resource
 
 The folder called shared folder was created and in order to avoid problems in the long term the inheritance permissions were deactivated and to this folder the 3 groups were added in "read" permission.
 
@@ -161,7 +161,7 @@ Then 3 folders were created inside this folder and each one was assigned the cor
 
 ![image-20200519201954045](/assets/images/fortify-windows/windows-sample-13.PNG)
 
-##DOMAIN SECURITY POLICIES
+## DOMAIN SECURITY POLICIES
 
 Control Panel and wallpaper
 
@@ -177,7 +177,7 @@ And for desktop wallpaper is this option "Desktop Wallpaper".
 
 ![image-20200519201954045](/assets/images/fortify-windows/windows-sample-16.PNG)
 
-##Password policy in the active directory.
+## Password policy in the active directory.
 
 Configure the passwords in this way "Minimum password lenght" ensures that the minimum password size if it is to be changed is 10 and enforce enforces the policy setting Apply password history determines the number of unique new passwords that must be associated with a user account before an old password can be reused.
 
@@ -187,7 +187,7 @@ Force policy updates
 
 ![image-20200519201954045](/assets/images/fortify-windows/windows-sample-18.PNG)
 
-##CHECK CONFIGURATION IN WINDOWS 7
+## CHECK CONFIGURATION IN WINDOWS 7
 
 Join Machine to the domain
 
@@ -199,7 +199,7 @@ And when you join, now you are successfully logged in.
 
 ![image-20200519201954045](/assets/images/fortify-windows/windows-sample-20.PNG)
 
-##Control panel policies and change of image
+## Control panel policies and change of image
 
 At this point we can already verify that the security policies have been correctly configured in the equipment and also that the user with which we are accessing has only the necessary permissions for his group of membership.
 
@@ -219,9 +219,9 @@ As you logged in with user01, only the folder address is visible and allows you 
 
 ![image-20200519201954045](/assets/images/fortify-windows/windows-sample-25.PNG)
 
-##LOCAL SECURITY SETTINGS IN WINDOWS 7
+## LOCAL SECURITY SETTINGS IN WINDOWS 7
 
-##AppLocker Rules
+## AppLocker Rules
 
 ![image-20200519201954045](/assets/images/fortify-windows/windows-sample-26.PNG)
 
@@ -233,7 +233,7 @@ Allow everything from the system32 folder and block a file named "dism.exe".
 
 ![image-20200519201954045](/assets/images/fortify-windows/windows-sample-29.PNG)
 
-##Windows Firewall Configuration
+## Windows Firewall Configuration
 
 In practice it tells us that we must block all connections to the computer, except for an application that will receive requests to the TCP port from the Local IP 10.10.2.104.
 
@@ -244,12 +244,12 @@ firewall
 
 ![image-20200519201954045](/assets/images/fortify-windows/windows-sample-30.PNG)
 
-##Summary and references
+## Summary and references
 
 In this activity the knowledge acquired in the course of Security in Operating Systems has been put into practice. In particular, we have used for its development the notes and slides related to Windows Operating Systems Security both at user and server level, as well as those related to PowerShell and domain policies.
 We have also used the resources available in Microsoft's technical support web site and other documents in digital support.
 
-##Main References:
+## Main References:
 
 Operadores de Comparación con PowerShell Scripting - (salyseo.com) 
 
