@@ -105,6 +105,7 @@ Due to the fact that this audit plan is focused on Access, DB and DPC Security, 
 
 ## Action Plan
 Table of the Recommendation
+
 | Control | Code | Suggestion | Term |
 |------------------|-------|-------------------------------|------------|
 | Asset Management | Reco1 | Access control implementation | Short term |
