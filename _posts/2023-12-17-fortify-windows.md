@@ -84,6 +84,7 @@ The first part of the script is used to create the Departments (groups) requeste
 ##Powershell user creation
 
 ```ps1 The code
+
 #Write-Host 'Hello from PowerShell!'
 Import-Module ActiveDirectory
 $data = @('Direccion','RRHH','Ingenieria') #arreglo de grupos
@@ -158,31 +159,33 @@ The folder called shared folder was created and in order to avoid problems in th
 
 Then 3 folders were created inside this folder and each one was assigned the corresponding permissions, but with read & execute that allows to open, list the content and view the folder.
 
+![image-20200519201954045](/assets/images/fortify-windows/windows-sample-13.PNG)
+
 ##DOMAIN SECURITY POLICIES
 
 Control Panel and wallpaper
 
 The policy is created in group policy management.
 
-![image-20200519201954045](/assets/images/fortify-windows/windows-sample-13.PNG)
+![image-20200519201954045](/assets/images/fortify-windows/windows-sample-14.PNG)
 
 For control panel you give "enable" to this file "Prohibit Access to Control Panel and PC settings".
 
-![image-20200519201954045](/assets/images/fortify-windows/windows-sample-14.PNG)
+![image-20200519201954045](/assets/images/fortify-windows/windows-sample-15.PNG)
 
 And for desktop wallpaper is this option "Desktop Wallpaper".
 
-![image-20200519201954045](/assets/images/fortify-windows/windows-sample-15.PNG)
+![image-20200519201954045](/assets/images/fortify-windows/windows-sample-16.PNG)
 
 ##Password policy in the active directory.
 
 Configure the passwords in this way "Minimum password lenght" ensures that the minimum password size if it is to be changed is 10 and enforce enforces the policy setting Apply password history determines the number of unique new passwords that must be associated with a user account before an old password can be reused.
 
-![image-20200519201954045](/assets/images/fortify-windows/windows-sample-16.PNG)
+![image-20200519201954045](/assets/images/fortify-windows/windows-sample-17.PNG)
 
 Force policy updates
 
-![image-20200519201954045](/assets/images/fortify-windows/windows-sample-17.PNG)
+![image-20200519201954045](/assets/images/fortify-windows/windows-sample-18.PNG)
 
 ##CHECK CONFIGURATION IN WINDOWS 7
 
@@ -190,45 +193,45 @@ Join Machine to the domain
 
 To check all the configurations established in the previous sections we will join a machine with Windows 7 operating system to the domain sso.com for it we accede to the properties of the system and in the tab name of the machine with the button change, we can modify the name and with the credentials of the domain administrator we can join it to the domain. 
 
-![image-20200519201954045](/assets/images/fortify-windows/windows-sample-18.PNG)
+![image-20200519201954045](/assets/images/fortify-windows/windows-sample-19.PNG)
 
 And when you join, now you are successfully logged in.
 
-![image-20200519201954045](/assets/images/fortify-windows/windows-sample-19.PNG)
+![image-20200519201954045](/assets/images/fortify-windows/windows-sample-20.PNG)
 
 ##Control panel policies and change of image
 
 At this point we can already verify that the security policies have been correctly configured in the equipment and also that the user with which we are accessing has only the necessary permissions for his group of membership.
 
-![image-20200519201954045](/assets/images/fortify-windows/windows-sample-20.PNG)
-
 ![image-20200519201954045](/assets/images/fortify-windows/windows-sample-21.PNG)
-
-We also evidenced the generated policy "Desktop Wallpaper".
 
 ![image-20200519201954045](/assets/images/fortify-windows/windows-sample-22.PNG)
 
-Browse the folders that can be viewed
+We also evidenced the generated policy "Desktop Wallpaper".
 
 ![image-20200519201954045](/assets/images/fortify-windows/windows-sample-23.PNG)
 
-As you logged in with user01, only the folder address is visible and allows you to open it.
+Browse the folders that can be viewed
 
 ![image-20200519201954045](/assets/images/fortify-windows/windows-sample-24.PNG)
+
+As you logged in with user01, only the folder address is visible and allows you to open it.
+
+![image-20200519201954045](/assets/images/fortify-windows/windows-sample-25.PNG)
 
 ##LOCAL SECURITY SETTINGS IN WINDOWS 7
 
 ##AppLocker Rules
 
-![image-20200519201954045](/assets/images/fortify-windows/windows-sample-25.PNG)
-
 ![image-20200519201954045](/assets/images/fortify-windows/windows-sample-26.PNG)
-
-Allow everything from the system32 folder and block a file named "dism.exe".
 
 ![image-20200519201954045](/assets/images/fortify-windows/windows-sample-27.PNG)
 
+Allow everything from the system32 folder and block a file named "dism.exe".
+
 ![image-20200519201954045](/assets/images/fortify-windows/windows-sample-28.PNG)
+
+![image-20200519201954045](/assets/images/fortify-windows/windows-sample-29.PNG)
 
 ##Windows Firewall Configuration
 
@@ -239,7 +242,7 @@ We create a new custom inbound rule with the wizard.
 Here we can see how the configuration of the firewall inbound rules is finally set up.
 firewall
 
-![image-20200519201954045](/assets/images/fortify-windows/windows-sample-29.PNG)
+![image-20200519201954045](/assets/images/fortify-windows/windows-sample-30.PNG)
 
 ##Summary and references
 
