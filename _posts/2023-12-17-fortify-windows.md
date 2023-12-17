@@ -5,7 +5,7 @@ excerpt: "In this activity we are asked to put into practice the knowledge acqui
 date: 2023-12-17
 classes: wide
 header:
-  teaser: /assets/images/iso-sample/ISO-logo.png
+  teaser: /assets/images/fortify-windows/windows-logo.PNG
   teaser_home_page: true
   icon: /assets/images/hackthebox.webp
 categories:
@@ -24,7 +24,7 @@ tags:
   - Portfolio
 ---
 
-![](/assets/images/fortify-windows/windows-logo.png)
+![](/assets/images/fortify-windows/windows-logo.PNG)
 
 
 ## Background
@@ -83,7 +83,66 @@ The first part of the script is used to create the Departments (groups) requeste
 
 ##Powershell user creation
 
-codeaqui-------
+```ps1 The code
+#Write-Host 'Hello from PowerShell!'
+Import-Module ActiveDirectory
+$data = @('Direccion','RRHH','Ingenieria') #arreglo de grupos
+$cont = 0
+#Get-ADDomainController -filter {IsGlobalCatalog -eq $True}
+while($cont -lt 3)#este loop sirve para agregar los grupos basado en los arreglos
+{
+$grupo=""+$data[$cont]
+New-ADGroup -Name $grupo -SamAccountName $grupo -GroupCategory Security -GroupScope Global -DisplayName "Departamento de $grupo" -Path "OU=Grupos,DC=sso,DC=com" -Description "Grupos de usuarios de $grupo"
+Write-Host "Grupo "$grupo" agregado con exito"
+$cont++
+}
+$cont = 0 #reinicializar el contador de grupos en 0 para la asignacion del grupo cuando se agrega un nuevo usuario
+
+#$ou="0U=Grupos,DC=sso,DC=com" Quise usar esta variable para el path pero mandaba error porque termina en :string 
+
+#Write-Host (Get-ADDomain).DistinguishedName ver controladores de dominio
+$dominio= (Get-ADDomain).DNSRoot #obtener dominio
+$usuario="0"
+$cont2=1
+while($cont2 -le 50) #loop para agregar usuarios sin usar un csv
+{# las condicionales -le,-lt,etc estan documentadas en la bibliografia
+if($cont2 -lt 10)
+{$usuario="0"+$cont2}#si el usuario es menor de 10 se antepone el 0 para mantener los 2 digitos
+if($cont2 -ge 10)
+{$usuario=$cont2}
+
+$grupo=""+$data[$cont]
+$nombre="usuario"+$usuario
+$UPN="usuario$usuario@$dominio"
+Write-Host $UPN
+New-ADUser -SamAccountName $nombre -UserPrincipalName ($UPN) -Name $nombre -DisplayName $nombre -Surname "Apellido$usuario" -GivenName "nombre$usuario" -Department "departamento$usuario" -Description "descripcion del usuario$usuario" -AccountPassword (ConvertTo-SecureString "SSS00-un1ir" -AsPlainText -force) -Path "OU=Grupos,DC=sso,DC=com" -Enabled $true -ChangePasswordAtLogon $true -Verbose 
+ <# $NewUserParams = @{
+     Name                  = $nombre
+     userprincipalname = $UPN
+     givenname             = $nombre 
+     surname               = "Apellido"+$nombre 
+     displayname           = $nombre 
+     SamAccountName        = $nombre 
+     path                  = $ou
+     Department            = $grupo
+     AccountPassword       =  ConvertTo-SecureString 'SSS00-un1ir' -AsPlainText -Force 
+     Enabled               =  $true 
+     ChangePasswordAtLogon =  $true 
+    }New-ADUser @NewUserParams #>
+
+Add-ADGroupMember -Identity $grupo -Members $nombre #asignar el usuario a un grupo
+
+Write-Host "Usuario usuario"$usuario" agregado con exito"
+
+if($cont2 -eq 10)#al llegar al usuario nro 10 cambia de grupo de Direccion a RRHH
+{$cont++}
+if($cont2 -eq 30)#al llegar al usuario nro 10 cambia de grupo de RRHH a Ingenieria
+{$cont++}
+$cont2++
+
+}
+
+```
 
 Checks whether the users were created successfully and whether the users were assigned to the created group ("Groups").
 
