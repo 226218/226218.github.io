@@ -83,7 +83,7 @@ The first part of the script is used to create the Departments (groups) requeste
 
 ## Powershell user creation
 
-```ps1 The code
+```powershell
 
 #Write-Host 'Hello from PowerShell!'
 Import-Module ActiveDirectory
