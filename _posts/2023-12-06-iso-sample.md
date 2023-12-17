@@ -119,30 +119,134 @@ Actions
 Benefits
 - Significant improvement in the security of access to the systems. 
 
-## 7th Step to Solving
+| Control | Code | Suggestion | Term |
+|------------------|-------|-------------------------------|------------|
+| Asset Management | Reco2 | Implementation of user identity verifier (Accesses) | Medium term |
 
-We joined to the real website of the target machine
+Description of the recommendation
+It is verified that the implementation of access control to manage user identity should be taken into consideration.
+Actions
+- Identification of the access process to a given system
+- Identification of how the identity of a user is checked.
+- Inventory all access processes
+- Enable access through digital signatures or biometric devices.
+Benefits
+- Significant improvement in system access security
 
-![image-20200519201954045](/assets/images/htb-keeper/answer-6.png)
+| Control | Code | Suggestion | Term |
+|------------------|-------|-------------------------------|------------|
+| Asset Management | Reco3 | Implementation of user privilege verifier | Medium term |
 
-## 8th Step to Solving
-We used the tool nuclei for did pentesting in websites and another services
+Description of the recommendation
+The implementation of access control to manage user privileges should be taken into consideration.
+access control to manage user privileges should be taken into consideration.
+Actions
+- Identification of user permissions and privileges
+- Identification of privilege escalation.
+- Mapping system servers with vulnerability and privilege escalation tools.
+Benefits
+- Significantly improves access through privileges 
 
-![image-20200519201954045](/assets/images/htb-keeper/answer-7.png)
+| Control | Code | Suggestion | Term |
+|------------------|-------|-------------------------------|------------|
+| Information Management | Reco4 | Configuration Manipulation checker implementation | Short term |
 
-## 9th Step to Solving
+Description of the recommendation
+It is verified that the implementation of control of to verify configuration manipulation should be taken into consideration.
+Actions
+- Identification of server configurations
+- Block access to server permissions settings for third party service.
+- Map accesses to information and logs of entries and executions by third parties.
+Benefits
+- Significantly improves the failures that can occur when a third party has access to non-displayed tools. 
 
-We tried to connect with the service ssh using anonymous credentials 
+| Control | Code | Suggestion | Term |
+|------------------|-------|-------------------------------|------------|
+| Information Management | Reco5 | Configuration Manipulation checker implementation | Short term |
 
-![image-20200519201954045](/assets/images/htb-keeper/answer-8.png)
+Description of the recommendation
+It is found that the implementation of control of to verify configuration manipulation should be taken into consideration.
+Actions
+- Identification of server configurations
+- Block access to server permissions settings for third party service.
+- Map accesses to information and logs of entries and executions by third parties.
+Benefits
+- Significantly improves bugs and vulnerabilities that can occur when a third party has access to tools that they should not.
 
+| Control | Code | Suggestion | Term |
+|------------------|-------|-------------------------------|------------|
+| Information Management | Reco6 | Implementation of policies against Disclosure of information (BBDD) | Short term |
 
- 
-## Second Flag 
+Description of the recommendation
+It is verified that the implementation of an organizational policy against the disclosure of information to workers and the contract with the third party service that provides maintenance should be taken into consideration.
+Actions
+- Identification of current policies on information disclosure.
+- Map the accesses to information and users who have access to sensitive information that could at some point affect customers.
+- Create objective sanctions for users who disclose information depending on the degree of disclosure.
+Benefits
+- Condition users who violate the rules to have a present responsibility for the stipulated policies. 
 
-Finally we putted the second flag in HTB
+| Control | Code | Suggestion | Term |
+|------------------|-------|-------------------------------|------------|
+| Technology Management | Reco7 | Deployment of mirrored backup servers when having Water Damage | Short term |
 
-![image-20200519201954045](/assets/images/htb-keeper/answer-32.png)
+Description of recommendation
+Consideration of implementing a mirrored server if water damage were to occur is tested.
+Actions
+- Identify the physical area of the DPC
+- Identify if there are any architectural or visually verifiable flaws.
+- Identify the physical location of the DPC.
+- Create a mirror server for the DB that receives backups of the DB day.
+- Implement a contingency policy and deploy the backup server in case of water damage.
+Benefits
+- Allows to provide almost immediate availability in case of server failure.
+- Allows the company's service not to be down if something were to happen. 
 
+## Annexes
+Planning
+Next, we will detail the time and resources that will be needed for the development of the audit. Two auditors will be required to travel to Distribuciones Mariano's facilities between the months of June and September 2022.
+BeAuditors, through the Account Manager, is committed to the 2 auditors meet the following requirements:
+Senior Auditor
+- Degree in Computer Engineering/Telecommunications. 5 years or more of experience in performing technology audits.
+- Possess any of the following certifications: CISM, CISP, CISA, PMP, ISO Lead Auditor 27001, CSA STAR Certification, Lead Auditor 22301 and ITIL. Distribuciones Mariano undertakes to provide the necessary equipment and tools for the performance of the technological audit to the external personnel that will travel to its facilities.
+Junior Auditor
+- Degree in Computer Engineering/Telecommunications. 1 year or more of experience in performing technology audits.
+- Possess any of the following certifications: eJPT, eJPTx, OSCP, OCISM, CISP, CISA, PMP, ISO Lead Auditor 27001, CSA STAR Certification, Lead Auditor 22301 and ITIL.
+  
+Distribuciones Mariano is committed to provide the necessary equipment and tools to carry out the technological audit to the external personnel that will travel to its facilities.
+It consists of 2 computers with good processor and memory, 2 monitors, access to the Internet and the company's network, tools such as ACL, Visio, Nessus, OWASP ZAP, etc. 
+Phases during the development of the Audit:
+1) Opening: opening meeting where the objectives and the bulk of the activities proposed to be carried out in the framework of the fulfillment of the audit objective are explained.
+of the audit objective 
+- Identification of potential risks: a first approach is made to the risks already mentioned in this audit by the approach is requested as part of the process of the web portal itself (Inherent) and those that are external but can place risks in the established processes.
+2) Identification of controls (strong and weak): Study of the controls in place at the current stages of the process and their degree of influence on it. A value is given on how these are being considered.
+![image-20200519201954045](/assets/images/iso-sample/iso-sample-4.PNG)
+3) Selection of the tests and techniques and methodology to be used: based on the previous information, it is established which of these will allow the fulfillment of the objectives depending on the particularities of the processes that are executed for the fulfillment of the portal's mission and vision. In the current case, vulnerability scanning tools such as owasp zap, burpsuite, Nessus, etc. would be used. Log reviews would also be done from monitoring tools. Patterns of privilege escalation attacks would be established according to the permissions held. And ultimately the CPD checklist verifications.
+4) Detailed planning of activities: each activity is detailed in terms of human, technical and economic resources to be allocated according to time. 
+5) Testing, meetings with the person in charge, interviews and obtaining results: execution of the proposed activities according to the established methodology. At this stage, the results obtained from the application of the control procedures and the tests carried out will be obtained in order to determine whether or not the control objectives defined above have been met. The data obtained will be recorded in spreadsheets made to measure for each procedure in order to have the results perfectly catalogued with the objective of facilitating their interpretation and avoiding erroneous interpretations.
+6) Record of tests: Record taking of each of the tests that are required as part of the Annex of the report to determine the necessary improvement actions.
+7) Conclusions and comments: The summary of the analysis of the activities, tests and methodology is framed to determine the corrective actions or improvements to be implemented in the framework of the results obtained. In this step the summary of all the information obtained will be detailed, as well as what is derived from that information, be it security, organizational or business structure failures.
+8) Document reviews and closure: A review of the documents generated and / or obtained as part of the documentary heritage of the audit is performed.
+9) Drafting of the preliminary audit report: a first draft of the report containing a version control is made so that both the data obtained and the comments generated are fed back by the actors of the processes in order to enter their adjustments or suggestions, mitigating a possible error of interpretation.
+10) Provision of preliminary version: a first version of the report is generated with the consolidation of all the information obtained.
+11) Conceptualization of the direct participants: the opportunity is given for a light review of the people who participated in the audit.
+12) Preparation of the final audit report: the preliminary report is taken and the observations received from those involved in the previous stage are analyzed and, if applicable, incorporated into the final audit report.
+13) Preparation of high-level audit report: based on the consolidation obtained in the previous phase, an executive report is generated to be presented to the high-level management of Distribuciones Mariano.
+14) Final version control record (final version): a final version of the audit report is generated and assigned the final version control sequential that will be delivered as the final product of the process.
+15) Final meeting and document delivery: This is the last part of the audit and a meeting is held to formalize the delivery of the final report with the results obtained in the audit. Below is an image that contains the proposed phases for the development of the methodology and the planned times for the execution of the same, in consideration of what has been proposed should be taken into account:
+  
+![image-20200519201954045](/assets/images/iso-sample/iso-sample-5.PNG)
+
+## GDPR
+
+![image-20200519201954045](/assets/images/iso-sample/iso-sample-6.PNG)
+
+![image-20200519201954045](/assets/images/iso-sample/iso-sample-7.PNG)
+
+## Risks 27001
+
+![image-20200519201954045](/assets/images/iso-sample/iso-sample-8.PNG)
+
+![image-20200519201954045](/assets/images/iso-sample/iso-sample-9.PNG)
 
 
