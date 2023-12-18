@@ -38,14 +38,15 @@ professionals.
   - Professionals can opt for installations and works.
 
 On this platform you will find the inventory of products, accounting, as well as all the data of the all the data of the customers or professionals (both groups; among these data are their demographics and demographic and financial data).
-In order to access the platform, from the Distribuciones Mariano's website you select whether you are a private individual or a professional, and then you can access your personal personal zone. Similarly, there is an administration area that is managed exclusively by Distribuciones Mariano's staff. exclusively by Distribuciones Mariano staff.
+
+In order to access the platform, from the Distribuciones Mariano's website you select whether you are a private individual or a professional, and then you can access your personal personal zone. Similarly, there is an administration area that is managed exclusively by Distribuciones Mariano's staff.
+
 Distribuciones Mariano, conscious of the importance of this platform, wants to to carry out a security review of this, so we request commercial offers from different suppliers.
-to different suppliers.
+
 In addition to the information provided above, Distribuciones Mariano comments to the suppliers that the platform is hosted by the company.
 suppliers that the platform is hosted in its Data Processing Center (CPD), which contains a database that it contains an Oracle database and that all the development and maintenance services are outsourced to a third party and maintenance is outsourced to another company.
 
 Once these casuistries are understood, it is requested to perform a complete report of security audit of the distribuciones Mariano platform. This audit should be focused under the audit practice on access, DB or security in the DPC.
-in the DPC.
 
 
 ## Goals
@@ -54,7 +55,6 @@ The objective of IT Security is to protect against threats, in order to ensure t
 The objectives of an IT audit are to control the IT function, analyze the efficiency and effectiveness of the the analysis of the efficiency of the IT systems involved, the verification of compliance with the the verification of compliance with the company's general regulations in this field and the review of the and the review of the effective management of resources. In the acquisition and design of information systems, in some cases, good practices are not taken into consideration or security regulations are overlooked, which ensure that, redundantly, a system is secure. For The level of security that can be achieved by technical means is therefore limited and must be supported by adequate management and procedures, involving the organization's employees of the organization, and even in some cases, suppliers and/or customers.
 
 In the current report the process and phases of the audit will be carried out focused under the audit practice on access, DB or security in the DPC (Data Processing Center).
-(Data Processing Center). 
 
 ## Methodology
 
