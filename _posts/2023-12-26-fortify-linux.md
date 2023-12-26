@@ -1,6 +1,6 @@
 ---
 layout: single
-title: FORTIFICATION OF A LINUX ENVIRONMENT by Fernando
+title: FORTIFICATION OF A LINUX ENVIRONMENT by Fernando (Working Progress)
 excerpt: "In this activity we are asked to put into practice the knowledge acquired in the first topic of the operating systems security course. We are asked to deploy a domain controller and a computer attached to it, on which we will apply different security measures, both at the domain level to this one in which we will apply different security measures, both at domain level and in the as well as on the computer itself. For this purpose, the laboratory has been carried out on a Windows Server 2016 virtual machine and a Windows Server 2016 virtual machine. Windows Server 2016 virtual machine and a Windows 7 client machine."
 date: 2023-12-26
 classes: wide
