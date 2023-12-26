@@ -5,7 +5,7 @@ excerpt: "In this activity we are asked to put into practice the knowledge acqui
 date: 2023-12-26
 classes: wide
 header:
-  teaser: /assets/images/fortify-linux/linux-logo.PNG
+  teaser: /assets/images/fortify-linux/linux-logo.png
   teaser_home_page: true
   icon: /assets/images/hackthebox.webp
 categories:
@@ -24,7 +24,7 @@ tags:
   - Portfolio
 ---
 
-![](/assets/images/fortify-linux/linux-logo.PNG)
+![](/assets/images/fortify-linux/linux-logo.png)
 
 
 ## Background
