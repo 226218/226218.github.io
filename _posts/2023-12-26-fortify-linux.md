@@ -34,23 +34,23 @@ The activity will allow to put into practice the concepts related to Linux syste
 The same company of the windows fortification has contacted us again to request the installation and secure configuration of a virtual machine based on VirtualBox and whose operating system is Ubuntu. 
 
 ## Contents
-- 1. Creation and configuration of the virtual machine
+- 1 Creation and configuration of the virtual machine
 - I. The virtual machine must have 4GB of RAM, 10GB of hard disk and a network interface in NAT mode.
 - II. The user space, /home, must be on a separate logical volume.
 - III. The hard disk must be encrypted with the key: disc0Unir.
 - IV. The user created during installation will be bound with a key SSSO0Unir.
-- 2. Secure installation and configuration of grub .
+- 2 Secure installation and configuration of grub .
 - V. The grub must be protected.
 - VI. Secure su and sudo commands.
-- 3. IPTables configuration.
+- 3 IPTables configuration.
 - VII. OpenSSH server must be installed.
 - VIII. Configure IPTables to only accept OpenSSH connections through port 22.
-- 4. Script and create users and groups.
+- 4 Script and create users and groups.
 - IX. The users that are going to work on the machine are from the management and engineering area. Create a script that asks for the user name, password, group (if it does not exist it will be added) and if it is an administrator user to allow us to create users in the system. In addition, the script must verify if the user already exists in the system before adding him/her.
 - X. Using the above script, create the user Engineering01 non-administrator with the password SSSO0Ing01 and another one Address01 with the password SSSO0Dir01. Allow for new users to be added in the future.
 - XI. List the /etc/passwd file to verify that the existing users are the ones that have been defined.
 - XII. The user Engineering01 will create a folder that belongs to all the users of the engineering area and in which they can read and write. In turn, the users of the management area will have read access to the content located in that folder. 
-- 5. Squid configuration. Finally, we are asked to set up a Squid proxy server with the following characteristics: 
+- 5 Squid configuration. Finally, we are asked to set up a Squid proxy server with the following characteristics: 
 - XIII. Prevent users from browsing their personal emails from gmail.com, hotmail.com, yahoo.com.
 - XIV. To restrict that no surfing can be done any day of the week between 8 and 10 am.
 - XV. That the logs be stored in a file called messages.log.
@@ -155,7 +155,7 @@ But being a configuration file so easy to access and with clear text I proceeded
 ![image-20200519201954045](/assets/images/fortify-linux/fortify-linux-21.PNG)
 
 Thanks to this I got the hashed key of 1111 to
-```C
+```bash
 grub.pbkdf2.sha512.10000.6CE8773EA6EB70EC88ECF958524940417A982F7593DF17613160FF3E24C365E68A90F440C8C0FF12125014FE982DA992A7E2259128B4CDEE8E1857E4B483D3A1. A9C6525DF5E4D65AD11800EF3443D3C103FDD395DBE9A5FC1880C0F8E80ACCEAFDD0B75E10E4D3F8C026B793250CB56A4B3239C66CA1CE17DA6FD96D2E77B16E 
 
 ```
@@ -223,7 +223,7 @@ Later, I created my script in bash language, this file with extension .sh to be 
 
 ### scriptusuarios.sh
 
-```C
+```bash
 #!/bin/bash
 if [ $(id-u) -eq 0 ]; then
 	read -p "Enter user: " username
