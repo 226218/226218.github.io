@@ -16,8 +16,8 @@ categories:
   - Bastion
   - Network Configuration
 tags:
-  - SSH
-  - Powershell
+  - Proxy
+  - Bash
   - OpenSSH
   - Squid
   - Linux
