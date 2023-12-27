@@ -1,6 +1,6 @@
 ---
 layout: single
-title: FORTIFICATION OF A LINUX ENVIRONMENT by Fernando (Working Progress)
+title: FORTIFICATION OF A LINUX ENVIRONMENT by Fernando
 excerpt: "The activity will allow to put into practice the concepts related to Linux systems. Specifically, an Ubuntu system will be fortified, restricting access to privileged users, securely managing access via SSH, restricting web browsing with a proxy and creating users with specific permissions. 
 The same company of the windows fortification has contacted us again to request the installation and secure configuration of a virtual machine based on VirtualBox and whose operating system is Ubuntu. "
 date: 2023-12-26
