@@ -1,7 +1,7 @@
 ---
 layout: single
-title: CozyHosting - Hack The Box
-excerpt: "CozyHosting is a machine of HTB. The machine has a Website with nginx, for this reason has access limited, later u can steal the cookies of an site in actuators/sessions, with the session we can intercept the request to login, later doing using a reverse shell to join like app, next continue scanning all possibilities with linpeas and finally with a file .jar can get password of postgre where is the password of ssh service to Privilege Escalation."
+title: Amir - Hack The Box
+excerpt: "Amir is a machine of HTB. The machine has a Website with nginx, for this reason has access limited, later u can steal the cookies of an site in actuators/sessions, with the session we can intercept the request to login, later doing using a reverse shell to join like app, next continue scanning all possibilities with linpeas and finally with a file .jar can get password of postgre where is the password of ssh service to Privilege Escalation."
 date: 2023-10-01
 classes: wide
 header:
@@ -30,7 +30,7 @@ tags:
 
 ![](/assets/images/htb-cozyhosting/cozyhosting_logo.png)
 
-CozyHosting is a machine of HTB. The machine has a Website with nginx, for this reason has access limited, later u can steal the cookies of an site in actuators/sessions, with the session we can intercept the request to login, later doing using a reverse shell to join like app, next continue scanning all possibilities with linpeas and finally with a file .jar can get password of postgre where is the password of ssh service to Privileges Escalation.
+Amir is a machine of HTB. The machine has a Website with nginx, for this reason has access limited, later u can steal the cookies of an site in actuators/sessions, with the session we can intercept the request to login, later doing using a reverse shell to join like app, next continue scanning all possibilities with linpeas and finally with a file .jar can get password of postgre where is the password of ssh service to Privileges Escalation.
 
 ## 1st HTB VPN connection
 
